@@ -224,7 +224,7 @@ namespace BilibiliDM_PluginFramework
                         var obj = JObject.Parse(JSON);
                         RawDataJToken = obj;
                         string[] TempCmd = obj["cmd"].ToString().Split(':');
-                        string cmd = TmpCmd[0]
+                        string cmd = TempCmd[0];
                         switch(cmd)
                         {
                             case "LIVE":
